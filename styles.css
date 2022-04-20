@@ -2,13 +2,17 @@
     box-sizing: border-box;
     font-family: Viga;
     font-weight: normal;
+    color: teal
   }
   
   body {
     padding: 0;
     margin: 0;
-    background: whitesmoke;
+    background-image: url("https://pin.it/3duzYkE");
+    background-size: cover;
+    background-repeat: repeat-y;
     border-radius: 25px;
+    
   }
   
   .calculator-grid {
@@ -27,10 +31,12 @@
     border: 1px solid teal;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
+    border-radius: 25px;
   }
   
   .calculator-grid > button:hover {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgb(19, 172, 172)
+
   }
   
   .span-two {
@@ -47,6 +53,7 @@
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
+    border-radius: 25px;
   }
   
   .output .previous-operand {
@@ -55,6 +62,6 @@
   }
   
   .output .current-operand {
-    color: black;
+    color: rgb(19, 172, 172);
     font-size: 2.5rem;
   }
