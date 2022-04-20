@@ -8,9 +8,7 @@
   body {
     padding: 0;
     margin: 0;
-    background-image: rgb(136, 221, 221);;
-    background-size: cover;
-    background-repeat: repeat-y; 
+    background-image: rgb(136, 221, 221);
   }
   
   .calculator-grid {
@@ -33,8 +31,7 @@
   }
   
   .calculator-grid > button:hover {
-    background-color: rgb(19, 172, 172)
-
+    background-color: rgb(19, 172, 172);
   }
   
   .span-two {
@@ -55,7 +52,7 @@
   }
   
   .output .previous-operand {
-    color:  rgb(182, 218, 218)
+    color:  rgb(182, 218, 218);
     font-size: 1.5rem;
   }
   
