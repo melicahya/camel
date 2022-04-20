@@ -8,7 +8,7 @@
   body {
     padding: 0;
     margin: 0;
-    background-image: rgb(136, 221, 221);
+    background-color: rgb(136, 221, 221);
   }
   
   .calculator-grid {
